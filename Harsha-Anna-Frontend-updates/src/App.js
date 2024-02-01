@@ -4,7 +4,6 @@ import IntrestContainer from "./components/IntrestContainer";
 import Publications from "./components/Publications";
 import { Thesis } from "./components/Thesis";
 import { TeachingAssistant } from "./components/TeachingAssistant";
-import { SocialMediaIcons } from "./components/SocialMediaicons";
 
 import "./App.css";
 
