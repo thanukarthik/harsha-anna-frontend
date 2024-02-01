@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  background-color: #282c34;
+  overflow-x: hidden;
+}
+.heading {
+  color: #fff;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 90%;
+}
+.para {
+  color: #fff;
+  font-size: 70%;
+  width: 100%;
+  padding-bottom: 5px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 90%;
+    height: auto;
+    padding-bottom: 5px;
+    margin: 0;
+  }
+}
+.appSite {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.appImagesShow {
+  width: 100vw;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .appContainer {
+    flex-direction: row;
+  }
+  .appImagesShow {
+    width: 25vw;
+    height: auto;
+  }
+}
